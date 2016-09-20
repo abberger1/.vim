@@ -17,6 +17,10 @@ set autochdir
 set cindent
 set hidden
 
+set shiftwidth=4
+set expandtab
+set softtabstop=4
+
 set foldmethod=indent
 set foldlevel=99
 nmap <space> za
