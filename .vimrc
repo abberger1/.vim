@@ -32,6 +32,8 @@ nmap <C-l> <C-w>l
 nmap <C-n> :nohl <CR>
 
 vnoremap <F5> :!python <CR>
+vnoremap <Tab> >
+vnoremap <S-Tab> <
 
 " Map to buttons
 nnoremap <C-Left> :call TmuxResize('h', 1)<CR>
